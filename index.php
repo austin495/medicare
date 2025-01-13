@@ -101,9 +101,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Easy ACA Coverage - Get a Quote</title>
-    <link rel="icon" href="https://easyacacoverage.com/wp-content/uploads/2024/10/Group-3696-150x150.png" sizes="32x32" />
-    <link rel="icon" href="https://easyacacoverage.com/wp-content/uploads/2024/10/Group-3696-300x300.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://easyacacoverage.com/wp-content/uploads/2024/10/Group-3696-300x300.png" />
+    <link rel="icon" href="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3694-150x150.png" sizes="32x32" />
+    <link rel="icon" href="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3694-300x300.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3694-300x300.png" />
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -114,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url('https://easyacacoverage.com/wp-content/uploads/2024/10/image-3-1.png');
+            background-image: url('https://easymedicarepicks.com/wp-content/uploads/2025/01/image.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -140,9 +140,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             justify-content: center;
             padding: 30px;
             border-radius: 30px;
-            background: rgba(0, 0, 0, 0.5);
+            background: #1d0041;
             border: 1px solid #e0e0e0;
-            backdrop-filter: blur(50px);
         }
 
         form {
@@ -158,7 +157,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             display: block;
             padding: 2px 8px;
             margin-bottom: 8px;
-            color: #000;
+            color: #fff;
 			font-family: 'Montserrat';
 			font-size: 16px;
 			font-weight: 500;
@@ -171,21 +170,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         input {
             width: 100%;
-            padding: 18px 12px 12px 12px;
+            padding: 12px 12px 12px 12px;
             margin-bottom: 20px;
             box-sizing: border-box;
             border: 1px solid #fff;
-            border-radius: 5px;
+            border-radius: 0px;
             background: transparent;
 			color: #fff;
 			font-family: 'Montserrat';
-			font-size: 14px;
+			font-size: 18px;
         }
 		
 
 
         button {
-            background-color: #7ED218;
+            background-color: #FBAF03;
             color: #202020;
             padding: 15px 70px;
             border: none;
@@ -279,7 +278,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
 
         .tcp p a {
-            color: #7ED218;
+            color: #FBAF03;
         }
 		
 		@media only screen and (max-width: 600px) {
@@ -368,16 +367,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     flex-wrap: nowrap;
                     margin: 0px 0px 20px 0px;
                     width: 25%;" >
-                        <source type="image/webp" srcset="https://easyacacoverage.com/wp-content/uploads/2024/10/Group-3655-1.png">
-                        <img src="https://easyacacoverage.com/wp-content/uploads/2024/10/Group-3655-1.png" alt="Logo" style="width: 100%"/>
+                        <source type="image/webp" srcset="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3657-2.png">
+                        <img src="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3657-2.png" alt="Logo" style="width: 100%"/>
                     </picture>
                 </div>
-                <span class="top2">ACA Benefits Plans</span>
+                <span class="top2">Medicare Benefits Plans</span>
                 <h1>Get Consultation Now!</h1>
                 <form id="leadForm" action='' method='post'>
                     <div class="form-content">
                         <input type='hidden' value='313e1b73089f468a88166e3c5b931639' name='lead_token'>
-                        <input type='hidden' value='9996' name='traffic_source_id'>
+                        <input type='hidden' value='9995' name='traffic_source_id'>
                         <input type='hidden' value='' name='source_url'>
                         <input type='hidden' id="ip-address" value='' name='ip_address'>
                         <input type='hidden' id="ip-region" value='' name='ip_region'>
@@ -387,43 +386,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <input type="hidden" id="trackdriveResponse" name="trackdrive_response" value="">
 
                         <div class="FNAME">
-                            <label for="firstName">First Name: <span style="color: red;">*</span></label>
-                            <input type="text" id="firstName" name="first_name" required>
+                            <!-- <label for="firstName">First Name: <span style="color: red;">*</span></label> -->
+                            <input type="text" id="firstName" placeholder="Enter First Name" name="first_name" required>
                         </div>
 
                         <div class="LNAME">
-                            <label for="lastName">Last Name: <span style="color: red;">*</span></label>
-                            <input type="text" id="lastName" name="last_name" required>
+                            <!-- <label for="lastName">Last Name: <span style="color: red;">*</span></label> -->
+                            <input type="text" id="lastName" placeholder="Enter Last Name" name="last_name" required>
                         </div>
                         
                         <div class="PHONE">
-                            <label for="phoneNumber">Phone Number: <span style="color: red;">*</span></label>
-                            <input type="tel" id="phoneNumber" name="caller_id" required>
+                            <!-- <label for="phoneNumber">Phone Number: <span style="color: red;">*</span></label> -->
+                            <input type="tel" id="phoneNumber" placeholder="Enter Phone Number" name="caller_id" required>
                         </div>
                         
                         <div class="EMAIL">
-                            <label for="email">Email Address: <span style="color: red;">*</span></label>
-                            <input type="email" id="email" name="email" required>
+                            <!-- <label for="email">Email Address: <span style="color: red;">*</span></label> -->
+                            <input type="email" id="email" placeholder="Enter Email Address" name="email" required>
                         </div>
                         
                         <div class="DOB">
-                            <label for="dob">Date of Birth (MM-DD-YYYY): <span style="color: red;">*</span></label>
-                            <input type="text" id="dob" name="dob" required>
+                            <!-- <label for="dob">Date of Birth (MM-DD-YYYY): <span style="color: red;">*</span></label> -->
+                            <input type="text" id="dob" placeholder="Enter Date of Birth" name="dob" required>
                         </div>
 
                         <div class="STATE">
-                            <label for="state">State: <span style="color: red;">*</span></label>
-                            <input type="text" id="state" name="state" required>
+                            <!-- <label for="state">State: <span style="color: red;">*</span></label> -->
+                            <input type="text" id="state" placeholder="Enter State" name="state" required>
                         </div>
                         
                         <div class="CITY">
-                            <label for="city">City: <span style="color: red;">*</span></label>
-                            <input type="text" id="city" name="city" required>
+                            <!-- <label for="city">City: <span style="color: red;">*</span></label> -->
+                            <input type="text" id="city" placeholder="Enter City" name="city" required>
                         </div>
                         
                         <div class="ZIP">
-                            <label for="zip">Zip Code: <span style="color: red;">*</span></label>
-                            <input type="text" id="zip" name="zip" required>
+                            <!-- <label for="zip">Zip Code: <span style="color: red;">*</span></label> -->
+                            <input type="text" id="zip" placeholder="Enter Zip Code" name="zip" required>
                         </div>
                         
                         
@@ -431,7 +430,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <input id="leadid_token" name="jornaya_leadid" type="hidden" value=""/>
 
                         <div class="tcp">
-                            <p>By clicking "Submit" or taking similar action, you expressly consent to receive marketing communications via autodialed calls, text messages, and emails from Easy ACA Coverage and its authorized <a href="https://easyacacoverage.com/marketing-partners/" traget="_black">marketing partners</a> at the phone number and email address you provide. This includes messages related to health insurance products such as Affordable Care Act (ACA) plans.</p>
+                            <p>By clicking "Submit", I agree to the Terms and Conditions and Privacy Policy of EasyMedicarePicks and authorize EasyMedicarePicks and its agents to contact me directly regarding Medicare and other insurance-related information at the phone number I have provided. I consent to receive calls and pre-recorded messages through an automated system, even if my number is on any Do Not Call list. I understand that my consent is not a condition of purchasing any goods or services, and I may revoke my consent at any time. Standard message and data rates may apply.</p>
                         </div>
                         
                         <button type="button" id="submitButton" class="assist" onclick="submitForm()">Submit</button>
