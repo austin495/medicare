@@ -70,6 +70,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $googleSheetKeys = ['first_name', 'last_name', 'caller_id', 'email', 'dob', 'state', 'city', 'zip', 'xxTrustedFormToken', 'TrustedFormPingUrl', 'jornaya_leadid', 'ip_address', 'traffic_source_id', 'ip_region', 'ip_city', 'ip_country'];
     $googleSheetData = prepareFormData($_POST, $googleSheetKeys);
     // $googleSheetData['api_response'] = json_encode(['status' => $status, 'message' => $responseMessage]);
+    // Add +1 before the phone number
+    if (isset($googleSheetData['caller_id'])) {
+        $googleSheetData['caller_id'] = '+1' . $googleSheetData['caller_id'];
+    }
 
     $googleSheetUrl = 'https://script.google.com/macros/s/AKfycbxF-qYrIAEFGIPfoCfLPYU9p8_9-5CPlarkTogsd3JeWbdpdqKHsuEQYy8Y8oQkyMMD/exec';
     $postData = http_build_query($googleSheetData);
