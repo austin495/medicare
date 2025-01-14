@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <title>Easy ACA Coverage - Get a Quote</title>
+    <title>Easy Medicare Picks - Get a Quote</title>
     <link rel="icon" href="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3694-150x150.png" sizes="32x32" />
     <link rel="icon" href="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3694-300x300.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://easymedicarepicks.com/wp-content/uploads/2024/10/Group-3694-300x300.png" />
