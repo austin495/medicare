@@ -493,6 +493,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			('0' + now.getMinutes()).slice(-2) + ':' +
 			('0' + now.getSeconds()).slice(-2);
 		$("#timestamp").val(formattedTimestamp);
+
+        $("#phoneNumber").on("input", function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters
+            value = value.replace(/\D/g, '');
+            // Limit to 10 characters
+            if (value.length > 10) {
+                value = value.substring(0, 10);
+            }
+            $(this).val(value);
+        });
 		
         $("#dob").on("input", function() {
             var dobValue = $(this).val();
